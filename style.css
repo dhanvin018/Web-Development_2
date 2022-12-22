@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+#top-container{
+    line-height: 2;
+    background-color: #039aa5;
+    border-style:solid;
+    border-width: 0px 0px 5px 0px;
+    margin-bottom: 0;
+    padding-top: 50px;
+    position: relative;
+}
+h1{
+    color: #263159;
+    font-size: 5.625rem;/*in css 100% font-size is 16 px, so we can convert 90px to percentage by (90*100/16)
+                        there is also a unit called em where 1 em is 16px.*/
+    font-family: "Gloria Hallelujah", sans-serif;
+    margin: 50px auto 0 auto;
+}
+
+
+
+#d1{
+    color: #263159;
+    font-weight: lighter;
+
+}
+h2{
+    color: #263159;
+    font-family: "Chivo Mono", sans-serif;
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+
+
+.tcloud{
+    position:absolute;
+    right: 25%;
+    top:5%;
+}
+
+.bcloud{
+    position: absolute;
+    left:20%;
+    bottom: 45%;
+}
+
+.middle-container{
+    margin-top: 40px;
+    
+    
+}
+.profilepic {
+    height:30%;
+    border-radius: 100px;
+}
+
+
+
+.bottom-container{
+    line-height: 1.5;
+    padding: 30px 0;
+    background-color:#039AA5;
+    
+}
+
+.contact-me {
+    padding-bottom: 20px;
+
+}
+
+
+.BUTTON_GVL {
+    margin: 30px auto;
+    background: #039AA5;
+    background-image: -webkit-linear-gradient(top, #039aa5, #048089);
+    background-image: -moz-linear-gradient(top, #039AA5, #048089);
+    background-image: -ms-linear-gradient(top, #039AA5, #048089);
+    background-image: -o-linear-gradient(top, #039AA5, #048089);
+    background-image: -webkit-gradient(to bottom, #039AA5, #048089);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 11px;
+    line-height: 11px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 131px;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 24px;
+    border: solid #039aa5 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_GVL:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ } 
+ .skill-row{
+    line-height: 2;
+    margin: 30px auto;
+    padding-top: 10px;
+    text-align: left;
+    width: 50%;  
+}
+
+.tt-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.chess-img{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+h3{
+    color: #335a8c;
+}
+
+hr{
+    align-items: center;
+    border-color: rgb(80, 80, 95);
+    border-style: dotted none none none;
+    border-width: 10px;
+    margin: 50px auto;
+    width: 10%;
+}
+
+/*.profilepic {
+    border-style:inherit;
+    border-radius: 100px;
+}
+
+.header {
+    margin-top: 0;
+    font-size: 40;
+}
+
+.d1 {
+    
+    font-size: 25px;
+    
+}
+
+.text{
+    font: caption;
+}
+
+.linked {
+    font:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}*/
